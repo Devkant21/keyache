@@ -1,0 +1,32 @@
+{
+  "name": "keyache",
+  "version": "1.0.0",
+  "description": "A caching layer to speed up the API responses.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "outDir": "./dist",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devkant21/keyache.git"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "author": "Devkant Swargiary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Devkant21/keyache/issues"
+  },
+  "homepage": "https://github.com/Devkant21/keyache#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.7",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
