@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/Devkant21/keyache/issues"
   },
-  "homepage": "https://github.com/Devkant21/keyache#readme",
+  "homepage": "https://github.com/Devkant21/keyache",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^20.12.7",
