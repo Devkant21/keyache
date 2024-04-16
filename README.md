@@ -1,6 +1,6 @@
 # Keyache
 
-  The **keyache** package offers a memory-efficient caching solution using an **LRU (Least Recently Used)** mechanism. By combining a **Binary Search Tree (BST)** for fast key-value lookups with a doubly linked list for LRU management, it provides quick data retrieval while optimizing memory usage. This package is beneficial for applications needing efficient and automated caching to improve performance and reduce computational overhead.
+  The **keyache** package introduces an enhanced caching solution using an **LRU** mechanism combined with **AVL trees**. This fusion offers efficient data retrieval with self-balancing capabilities, ensuring consistent **O(log n)** performance for insertions, deletions, and lookups. The **AVL-based LRU cache** optimizes memory usage by maintaining a balanced tree structure, providing a seamless balance between speed and memory efficiency. This package is ideal for applications requiring high-performance caching, offering improved responsiveness, reduced computational overhead, and efficient resource utilization
 
 ## Install the package in the program
 
