@@ -1,6 +1,6 @@
 {
   "name": "keyache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A caching layer to speed up the API responses.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/Devkant21/keyache/issues"
   },
-  "homepage": "https://github.com/Devkant21/keyache#readme",
+  "homepage": "https://github.com/Devkant21/keyache",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^20.12.7",

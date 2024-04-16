@@ -1,12 +1,10 @@
-import { BSTCache } from "../src/cache"
-// import { BSTCache } from 'keyache';
+import { LRUCache } from "../src/cache";
 
-
-describe('BSTCache', () => {
-    let cache: BSTCache;
+describe('LRUCache', () => {
+    let cache: LRUCache;
 
     beforeEach(() => {
-        cache = new BSTCache();
+        cache = new LRUCache(2); 
     });
 
     it('should set and get values correctly', () => {
@@ -35,5 +33,15 @@ describe('BSTCache', () => {
 
         expect(cache.get('key1')).toBeUndefined();
         expect(cache.get('key2')).toBeUndefined();
+    });
+
+    it('should evict least recently used item when reaching capacity', () => {
+        cache.set('key1', 'value1');
+        cache.set('key2', 'value2');
+        cache.set('key3', 'value3'); 
+
+        expect(cache.get('key1')).toBeUndefined();
+        expect(cache.get('key2')).toBe('value2');
+        expect(cache.get('key3')).toBe('value3');
     });
 });
