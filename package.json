@@ -1,6 +1,6 @@
 {
   "name": "keyache",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A caching layer to speed up the API responses.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
